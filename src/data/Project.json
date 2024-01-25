@@ -8,19 +8,19 @@
       "source": "https://github.com/Alfikriangelo/tubes_pbo_maps"
     },
     {
-      "title": "Project B",
+      "title": "OOP Bencana",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
+      "description": "program berorientasi objek mengenai bencana",
+      "skills": ["python"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/hnnayy/OOP-Bencana"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Project C",
+      "imageSrc": "kosong",
+      "description": "kosong",
+      "skills": ["kosong"],
+      "demo": "",
+      "source": ""
     }
   ]

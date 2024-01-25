@@ -62,7 +62,7 @@ const Navbar = () => {
           </li>
           <li className={styles.mycv}>
             <a
-              href='https://drive.google.com/file/d/11j4heIOEqKp4XAUV1C9k1i8t8MKTid-_/view?usp=drivesdk'
+              href='https://drive.google.com/file/d/1EaXvXdl-xQ93MzwQffmPt_Lbnbnxy3-8/view?usp=drive_link'
               target="_blank"
               rel="noopener noreferrer"
               download
