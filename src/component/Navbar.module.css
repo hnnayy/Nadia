@@ -1,0 +1,126 @@
+/* Navbar Styles */
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 0 14px;
+    z-index: 2;
+    margin-top: 50px;
+    margin-left: 31%;
+    margin-right: 20%;
+    background-color: #ffffff;
+    width: 63%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.title {
+    color: #000;
+    text-align: justify;
+    font: 700 18px/normal Inter;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menuList {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    margin: 0;
+}
+
+.menuList a {
+    margin-right: 20px;
+    color: #000;
+    font: 400 18px/normal Inter;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+.menuList a:hover {
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent);
+    padding: 11px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.mycv {
+    text-decoration-line: underline;
+    gap: 2px;
+}
+
+.menuIcon {
+    font-size: 24px;
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 35px;
+    cursor: pointer;
+}
+
+.menuIcon.hidden {
+    display: none;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        margin-left: 3%;
+        width: 90%;
+    }
+
+    .menu {
+        position: absolute;
+        right: 0;
+        margin-right: 10%;
+        flex-direction: column;
+        gap: 5px;
+        z-index: 2;
+    }
+
+    .menuList {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background-color: rgb(255, 253, 253);
+        padding: 24px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 25);
+        
+    }
+
+    .menuOpen .menuList {
+        display: flex;
+    }
+
+    .title {
+        margin-left: 0;
+    }
+}
+
+/* Media Query for Full Desktop */
+@media screen and (max-width: 768px) {
+    .menuIcon {
+        display: block;
+    }
+
+    .navbar {
+        flex-direction: column; 
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+
+    .title {
+        margin-left: 20px;
+    }
+}

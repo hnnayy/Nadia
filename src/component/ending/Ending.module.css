@@ -1,0 +1,133 @@
+/* Ending.module.css */
+
+.utama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .section {
+    margin-top: 10px;
+
+  }
+  
+  h3{
+    text-align: center;
+    color: #2f2f2f;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  h2 {
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+
+  p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Inter;
+  }
+  .email {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 700px;
+
+  }
+  
+  form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px; /* Add padding for spacing inside the form */
+    box-sizing: border-box; /* Include padding in the total width */
+
+  
+    input,
+    textarea {
+      width: calc(100% - 20px); /* Adjust the width of input and textarea, considering the padding */
+      padding: 7px;
+      margin-bottom: 15px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+      box-sizing: border-box;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  
+      &:focus {
+        border: 2px solid rgb(64, 66, 65);
+      }
+    }
+  
+    textarea {
+      max-height: 100px;
+      min-height: 100px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    }
+  
+    label {
+      margin-top:1px;
+    }
+  
+    input[type="submit"] {
+      margin-top: 5px;
+      cursor: pointer;
+      background: #4e4d4d;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      padding: 10px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    }
+  }
+  
+  .skillsList {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  
+  .skillItem {
+    margin: 10px;
+  }
+  
+  .skillItem svg {
+    width: 30px;
+    height: auto;
+    color: #000;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .section {
+      margin-left: 20px;
+      width: 90%;
+    }
+  
+    .skillsList {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  

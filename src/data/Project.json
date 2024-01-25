@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Sistem Data Penduduk Desa",
+      "imageSrc": "coder.jpg",
+      "description": "Platform pencatatan dan manajemen data penduduk desa, menyediakan fitur pencatatan individu, manajemen kependudukan untuk mempermudah administrasi dan koordinasi dengan instansi pemerintah.",
+      "skills": ["JavaScript", "Python", "CSS", "HTML"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/Alfikriangelo/tubes_pbo_maps"
+    },
+    {
+      "title": "Project B",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Project B",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["React", "Express", "Node", "Sass"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
